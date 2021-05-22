@@ -1,0 +1,44 @@
+h3{
+     font-size: 35px !important;
+     font-family: "Vibur", sans-serif;
+
+}
+
+body{
+     background-color: #010a01;
+     background-size: cover;
+}
+
+.btn-success:hover{
+     background-color: red;
+}
+
+canvas{
+     animation-name: example;
+     animation-duration: 0.5s;
+     animation-iteration-count: infinite;
+}
+
+h3{
+     font-family: 'Bree Serif', serif;
+     color: #fff;
+     text-shadow:
+         0 0 7px #fff,
+         0 0 10px #fff,
+         0 0 21px #fff,
+         0 0 42px #0fa,
+         0 0 82px #0fa,
+         0 0 92px #0fa,
+         0 0 102px #0fa,
+         0 0 151px #0fa;
+}
+
+@keyframes example{
+     from{
+          box-shadow: 4px 4px 108px rgb(2, 166, 255);
+     }
+
+     to{
+          box-shadow: 4px 4px 108px rgb(50, 255, 5);
+     }
+}
